@@ -2,4 +2,14 @@
   border: 1px solid lightgrey;
   border-radius: 5px;
   padding: 10px 20px;
+  background-color: rgb(15 23 42);
+}
+
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  margin: revert;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: revert;
+  font-weight: revert;
 }

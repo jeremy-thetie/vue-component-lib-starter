@@ -8,7 +8,7 @@ function install (app: App) {
   }
 }
 
-import './assets/main.scss'
+import './assets/application.scss'
 
 export default { install }
 

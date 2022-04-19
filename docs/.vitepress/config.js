@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  title: 'My Lib',
+  title: 'The TIE Design System',
   description: 'Just playing around.',
   themeConfig: {
     repo: 'https://github.com/wuruoyun/vue-component-lib-starter',
@@ -15,8 +15,8 @@ module.exports = {
       }, {
         text: 'Components',
         children: [
-          { text: 'Component A', link: '/components/component-a' },
-          { text: 'Component B', link: '/components/component-b' },
+          { text: 'Navigation', link: '/components/navigation' },
+          { text: 'Menu Dropdown', link: '/components/menu-dropdown' }
         ],
       }
     ],
@@ -26,7 +26,7 @@ module.exports = {
       alias: {
         'my-lib': path.resolve(__dirname, '../../src'),
       },
-      dedupe: ['vue', /primevue\/.+/], // avoid error when using dependencies that also use Vue
+      dedupe: ['vue'], // avoid error when using dependencies that also use Vue
     }
   }
 }

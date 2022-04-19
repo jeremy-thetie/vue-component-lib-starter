@@ -44,6 +44,6 @@ Import components from this library in your own component:
 
 ```html
 <script setup lang="ts">
-  import { ComponentA, ComponentB } from 'my-lib';
+  import { Navigation } from 'my-lib';
 </script>
 ```
