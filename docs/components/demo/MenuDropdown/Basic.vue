@@ -1,0 +1,3 @@
+<template>
+  <MenuDropdown />
+</template>
